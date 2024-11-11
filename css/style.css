@@ -1,0 +1,50 @@
+/*========================================
+                GERAL
+=========================================*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 0.390625vw);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*=====================================
+                TOPO
+=======================================*/
+header {
+    background-color: #3B8686;
+    padding: 20px 10vw 20px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 2vw 0 2vw;
+}
+header nav ul li a.menu-atual {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 13px 5px 13px;
+    border-radius: 15px;
+}
+/*=======================================
+                CONTEÚDO
+=======================================*/
+section.banner {
+    padding: 23vw 7vw 15vw 7vw ;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../images/back-banner.png) no-repeat center center;
+    background-size: cover;
+}
+section.banner h2 {
+    font-size: 4rem;
+    color: white;
+    background: rgba(59, 134, 134, 0.5);
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+    line-height: 130%;  
+}
