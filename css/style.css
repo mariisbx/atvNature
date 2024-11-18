@@ -48,3 +48,104 @@ section.banner h2 {
     padding: 10px 20px 10px 20px;
     line-height: 130%;  
 }
+section.lista {
+    padding: 5vw 10vw 5vw 10vw;
+}
+section.lista ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+section.lista ul li {
+    width: 25%;
+}
+section.lista ul li span {
+    font-size: 3rem;
+    color: #3B8686;
+}
+section.lista ul li h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2vw 0 1vw 0;
+}
+section.lista ul li p {
+    color: #747474;
+}
+section.lista ul li a {
+    background-color: #3B8686 ;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+}
+section.barco {
+    background: linear-gradient(rgba(22, 75, 48, 0.5), rgba(89, 223, 153, 0.5)), url(../images/back-numeros.png) no-repeat center center;
+    background-size: cover;
+
+}
+section.barco ul {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+section.barco ul li {
+    padding: 7vw 8vw 5vw 8vw;
+}
+section.barco ul li span {
+    font-size: 4.5rem;
+}
+section.barco ul li h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+section.atvs {
+    display: flex;
+    margin: 7vw 9vw 0 9vw;
+    justify-content: center;
+}
+section.atvs div.um h2 {
+    font-size: 2rem;
+    color: #0B486B;
+}
+section.atvs p.p {
+    text-align: left;
+    margin: 40px 0 0 0;
+    color: #747474;
+    font-weight: 650;
+}
+section.atvs div.um {
+    width: 30%;
+    margin: 0 4vw 0 0;
+}
+section.atvs a {
+    background-color: #0B486B;
+    padding: 20px 20px;
+    display: inline-block;
+    margin: 40px 20px 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+footer {
+    background-color: #3B8686;
+    display: flex;
+    color: white;
+    padding: 4vw 6vw 4vw 6vw  ;
+    justify-content: space-between;
+    margin: 8vw 0 0 0;
+}
+footer ul.um {
+    display: flex;
+    font-size: 2rem;
+}
+footer ul.um li {
+    margin: 0 8px 40px 8px;
+}
+footer span {
+    font-weight: bold;
+}
+footer div.dois {
+    line-height: 1.8;
+}
+footer ul.tres {
+    line-height: 2;
+}
